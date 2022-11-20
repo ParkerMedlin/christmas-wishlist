@@ -1,0 +1,41 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    background-color: darkred;
+}
+
+#headerDiv {
+    text-align: center;
+}
+
+h1 {
+    background-color: lightgreen;
+    color: white;
+}
+
+h3 { 
+    color: white;
+}
+
+.wishGridContainer {
+    display: grid;
+    grid-template-columns: 33vw 33vw 33vw;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.wishlistItemContainer {
+    border: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border: solid 3px green;
+}
+
+a { 
+    color: white
+}
