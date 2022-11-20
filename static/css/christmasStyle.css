@@ -10,9 +10,7 @@ body {
 h1 {
     background-color: lightgreen;
     font-size: 72px;
-    color: white;
-    -webkit-text-stroke: 2px black;
-    -webkit-text-fill-color: white;
+    color: darkgreen;
 }
 
 h3 { 
@@ -22,6 +20,7 @@ h3 {
 .wishGridContainer {
     display: grid;
     grid-template-columns: 33vw 33vw 33vw;
+    grid-template-rows: 25vh 25vh 25vh;
     justify-items: center;
     align-items: center;
     
