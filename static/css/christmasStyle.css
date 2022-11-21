@@ -18,24 +18,27 @@ h3 {
 }
 
 .wishGridContainer {
-    display: grid;
-    grid-template-columns: 33vw 33vw 33vw;
-    grid-template-rows: 25vh 25vh 25vh;
-    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     
 }
 
 .wishlistItemContainer {
     border: 20px;
+    background-color: darkgreen;
     padding: 5px;
     text-align: center;
+    border: solid 3px white;
+    height: 33vh;
+    width: 25vw;
 }
 
 img {
     height: 5vw;
     width: 5vw;
-    border: solid 3px green;
+    border: solid 3px lightgreen;
 }
 
 a { 
